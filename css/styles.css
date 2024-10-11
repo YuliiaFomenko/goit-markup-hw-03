@@ -157,11 +157,6 @@ img {
 
 /*--------------------------ADVANTAGES----------------------------------*/
 
-.advantages-list {
-  display: flex;
-  gap: 24px;
-}
-
 .advantages {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -180,15 +175,14 @@ img {
   overflow: hidden;
 }
 
+.advantages-list {
+  display: flex;
+  gap: 24px;
+}
+
 .advantages-item {
   display: flex;
   flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.advantages-item-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .advantages-title {
